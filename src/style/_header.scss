@@ -1,0 +1,35 @@
+
+ 
+
+  
+img {
+  position: absolute;
+  left: 2.08%;
+  right: 90.62%;
+  top: 13.75%;
+  bottom: 13.75%;
+}
+  
+body {
+  background-color: gray;
+}
+
+.header {
+  display: flex;
+  .navbar {
+    display: flex;
+  
+    &__nav {
+     
+      font-size: 50px;
+      display: flex;
+     
+    }
+  }
+}
+
+
+
+
+
+
