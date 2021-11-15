@@ -9,6 +9,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  width: 100%;
+  background-color: #00000050;
 }
 
 .header .navbar {
@@ -17,7 +20,6 @@
   display: flex;
 }
 
-bg
 .header .navbar__nav {
   font-size: 35px;
   display: -webkit-box;
@@ -41,5 +43,10 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.home {
+  height: 100vh;
+  background: url(../images/header/disco2.jpg);
 }
 /*# sourceMappingURL=style.css.map */

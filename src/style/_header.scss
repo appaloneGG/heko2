@@ -6,9 +6,12 @@
 
 .header {
   display: flex;
+  position: absolute;
+  width: 100%;
+  background-color: #00000050;
   .navbar {
     display: flex;
-    bg
+    
   
     &__nav {
      
