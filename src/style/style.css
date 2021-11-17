@@ -10,8 +10,9 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
+  z-index: 10;
   width: 100%;
-  background-color: #00000050;
+  background-color: rgba(0, 91, 193, 0.6);
 }
 
 .header .navbar {
@@ -27,16 +28,16 @@
   display: flex;
 }
 
-a {
+.header a {
   text-decoration: none;
 }
 
-li {
+.header li {
   padding-left: 20px;
   list-style: none;
 }
 
-.bober {
+.header .bober {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,8 +46,57 @@ li {
           align-items: center;
 }
 
+.header a {
+  color: white;
+}
+
 .home {
-  height: 800px;
-  background: url(../images/header/disco2.jpg);
+  height: 100vh;
+  background: url(../images/header/disco2.jpg) center/cover;
+  position: relative;
+}
+
+.home .bebra {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 48px;
+  padding-top: 282px;
+}
+
+.home .transparent-block {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 444px;
+  height: 100%;
+  background: rgba(0, 91, 193, 0.6);
+}
+
+.home .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.home .text1 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .baton {
+  top: 400px;
+  left: 231px;
 }
 /*# sourceMappingURL=style.css.map */
