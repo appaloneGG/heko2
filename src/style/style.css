@@ -22,6 +22,7 @@
 }
 
 .header .navbar__nav {
+  text-decoration: none;
   font-size: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,5 +99,13 @@
 .home .baton {
   top: 400px;
   left: 231px;
+}
+
+.home .lmao {
+  text-decoration: none;
+}
+
+.home .lol {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

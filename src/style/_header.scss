@@ -11,7 +11,7 @@
 
 
     &__nav {
-
+text-decoration: none;
       font-size: 35px;
       display: flex;
 
@@ -20,7 +20,6 @@
 
   a {
     text-decoration: none;
-
   }
 
   li {
@@ -36,4 +35,5 @@
   a {
     color: white;
   }
+ 
 }
