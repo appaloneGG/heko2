@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home {
 	height: 100vh;
 	background: url(../images/header/disco2.jpg) center/cover;
@@ -58,3 +59,46 @@
 	}
 
 }
+=======
+.home {
+  height: 720px;
+  background: url(../images/header/disco2.jpg) center/cover;
+  position: relative;
+
+  .bebra {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    padding-top: 282px;
+  }
+
+  .transparent-block {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .text1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+	top: 384px;
+	right: 700px; 
+  }
+
+  .baton {
+    top: 200px;
+    right: 461px;
+  }
+}
+>>>>>>> 7dec687b1803734194372c995f13468fd488bc77
