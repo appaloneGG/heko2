@@ -2,47 +2,59 @@
 	height: 100vh;
 	background: url(../images/header/disco2.jpg) center/cover;
 	position: relative;
-	
+	display: flex;
+
+	&>div {
+		margin-top: 80px;
+		height: calc(100% - 80px);
+	}
 
 	.bebra {
+		font-family: 'Oswald';
+		font-weight: 400;
 		color: white;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		font-size: 48px;
 		padding-top: 282px;
+		line-height: 71px;
+		margin-bottom: 40px;
 	}
 
 	.transparent-block {
 		position: absolute;
 		top: 0;
-		left: 20%;
+		left: 0;
 		width: 444px;
 		height: 100%;
 		background: rgba(0, 91, 193, 0.6);
+		z-index: -1;
 	}
 
 	.wrapper {
+		height: 100%;
 		position: relative;
 		z-index: 1;
+		padding-left: 190px;
 	}
 
 	.text1 {
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
 		color: white;
-		display: flex;
-	justify-content: center;
-    
+		margin-bottom: 40px;
 	}
 
 	.baton {
 		top: 400px;
 		left: 231px;
 	}
+
 	.lmao {
 		text-decoration: none;
-	  }
-	  .lol {
-		  text-decoration: none;
-	  }
+	}
+
+	.lol {
+		text-decoration: none;
+	}
 
 }

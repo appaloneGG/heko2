@@ -1,8 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header {
@@ -15,6 +33,23 @@
   background-color: rgba(0, 91, 193, 0.6);
 }
 
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+  line-height: 1;
+}
+
 .header .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,7 +58,7 @@
 
 .header .navbar__nav {
   text-decoration: none;
-  font-size: 35px;
+  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,12 +74,17 @@
 }
 
 .header .bober {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 40px;
 }
 
 .header a {
@@ -55,45 +95,49 @@
   height: 100vh;
   background: url(../images/header/disco2.jpg) center/cover;
   position: relative;
-}
-
-.home .bebra {
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.home > div {
+  margin-top: 80px;
+  height: calc(100% - 80px);
+}
+
+.home .bebra {
+  font-family: 'Oswald';
+  font-weight: 400;
+  color: white;
   font-size: 48px;
   padding-top: 282px;
+  line-height: 71px;
+  margin-bottom: 40px;
 }
 
 .home .transparent-block {
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 0;
   width: 444px;
   height: 100%;
   background: rgba(0, 91, 193, 0.6);
+  z-index: -1;
 }
 
 .home .wrapper {
+  height: 100%;
   position: relative;
   z-index: 1;
+  padding-left: 190px;
 }
 
 .home .text1 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-bottom: 40px;
 }
 
 .home .baton {
@@ -108,4 +152,19 @@
 .home .lol {
   text-decoration: none;
 }
-/*# sourceMappingURL=style.css.map */
+
+.h {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+}
+
+.footer {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+}

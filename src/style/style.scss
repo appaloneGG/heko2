@@ -1,10 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'Open Sans';
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-fluid {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
 @import './header';
 @import './home';
-@import './olymp';
 @import './SUUUUU';
